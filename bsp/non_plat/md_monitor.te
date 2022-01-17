@@ -35,3 +35,7 @@ allow md_monitor md_block_device:blk_file r_file_perms;
 allow md_monitor self:capability chown;
 allow md_monitor storage_file:dir search;
 allow md_monitor tmpfs:lnk_file read;
+
+# MTK Engineering Mode
+get_prop(md_monitor, mtk_md_prop)
+get_prop(md_monitor, mtk_mdm_prop)

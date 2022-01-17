@@ -96,3 +96,55 @@ allow platform_app mtk_mdp_device:chr_file rw_file_perms;
 allow platform_app sysfs_therm:dir r_dir_perms;
 allow platform_app sysfs_therm:file r_file_perms;
 allow platform_app recovery_service:service_manager find;
+
+# MTK Engineering Mode
+allow platform_app rild:binder { call transfer };
+allow platform_app em_hidl:binder { call transfer };
+allow platform_app netdagent:binder { call transfer };
+allow platform_app mtk_hal_rild_hwservice:hwservice_manager find;
+allow platform_app mtk_hal_em_hwservice:hwservice_manager find;
+allow platform_app mtk_hal_netdagent_hwservice:hwservice_manager find;
+dontaudit platform_app hal_telephony_hwservice:hwservice_manager find;
+dontaudit platform_app hal_audio_default:binder { call transfer };
+get_prop(platform_app, mtk_default_prop)
+get_prop(platform_app, mtk_dsbp_support_prop)
+get_prop(platform_app, mtk_em_hidl_prop)
+get_prop(platform_app, mtk_mdworldmode_prop)
+get_prop(platform_app, mtk_mims_prop)
+get_prop(platform_app, mtk_rat_config_prop)
+get_prop(platform_app, mtk_ril_mode_prop)
+get_prop(platform_app, mtk_telephony_addon_prop)
+get_prop(platform_app, mtk_wfc_entitlement_prop)
+get_prop(platform_app, ril_active_md_prop)
+get_prop(platform_app, vendor_ims_xcap_prop)
+get_prop(platform_app, vendor_mtk_radio_prop)
+get_prop(platform_app, tel_switch_prop)
+get_prop(platform_app, mtk_wfc_support_prop)
+get_prop(platform_app, mtk_ss_vendor_prop)
+get_prop(platform_app, mtk_smsformat_prop)
+get_prop(platform_app, mtk_log_tel_dbg_prop)
+get_prop(platform_app, mtk_imstestmode_prop)
+get_prop(platform_app, mtk_fd_support_prop)
+get_prop(platform_app, mtk_dmc_prop)
+get_prop(platform_app, mtk_disable_c2k_cap_prop)
+get_prop(platform_app, mnld_prop)
+get_prop(platform_app, mtk_aal_ro_prop)
+get_prop(platform_app, mtk_mdm_prop)
+get_prop(platform_app, mtk_vilte_support_prop)
+get_prop(platform_app, ro_vendor_mtk_wfd_support_prop)
+get_prop(platform_app, mtk_gprs_prefer_prop)
+get_prop(platform_app, wmt_prop)
+get_prop(platform_app, mtk_omx_log_prop)
+get_prop(platform_app, mtk_vdec_log_prop)
+get_prop(platform_app, mtk_vdectlc_log_prop)
+get_prop(platform_app, mtk_venc_h264_showlog_prop)
+get_prop(platform_app, persist_mtk_aee_prop)
+get_prop(platform_app, ro_mtk_aee_prop)
+get_prop(platform_app, mtk_em_sys_prop)
+get_prop(platform_app, mtk_gps_support_prop)
+get_prop(platform_app, mtk_bgdata_disabled)
+set_prop(platform_app, ctl_start_prop)
+set_prop(platform_app, ctl_stop_prop)
+set_prop(platform_app, mtk_power_off_md_type)
+set_prop(platform_app, mtk_wfc_entitlement_prop)
+set_prop(platform_app, mtk_bgdata_disabled)

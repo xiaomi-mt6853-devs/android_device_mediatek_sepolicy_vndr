@@ -79,3 +79,21 @@ set_prop(em_hidl, mtk_pq_prop)
 
 # Purpose: for em set wcn coredump property
 set_prop(em_hidl, coredump_prop)
+
+# Purpose: EM set Moms property
+set_prop(em_hidl, mtk_moms_prop)
+
+# Purpose: Allow EM HIDL to get/set vendor_vt_prop
+set_prop(em_hidl, vendor_vt_prop)
+
+# Purpose : allow EM to set mtk_dmc_prop
+set_prop(em_hidl, mtk_dmc_prop);
+
+# Purpose: Allow EM to get WMT property
+get_prop(em_hidl, wmt_prop)
+
+# Purpose: Allow EM to set IMS XCAP property
+set_prop(em_hidl, vendor_ims_xcap_prop)
+
+# Purpose: Allow to read service nvram init prop
+get_prop(em_hidl, service_nvram_init_prop)

@@ -66,3 +66,6 @@ get_prop(mtk_agpsd,mtk_gps_support_prop)
 # Read modem properties
 get_prop(mtk_agpsd, mtk_md_prop)
 get_prop(mtk_agpsd, mtk_ril_mode_prop)
+
+# MTK Engineering Mode
+get_prop(mtk_agpsd, cdma_prop)

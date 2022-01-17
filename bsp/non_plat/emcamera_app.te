@@ -23,3 +23,6 @@ set_prop(emcamera_app, mediatek_prop);
 # Purpose:  write data/vendor/shading
 allow emcamera_app vendor_shading_file:dir { create_dir_perms };
 allow emcamera_app vendor_shading_file:file { create_file_perms };
+
+# Purpose: find device state service
+allow emcamera_app device_state_service:service_manager find;

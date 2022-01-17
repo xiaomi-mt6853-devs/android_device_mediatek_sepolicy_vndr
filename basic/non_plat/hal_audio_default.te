@@ -1,0 +1,8 @@
+# MTK Engineering Mode
+allow hal_audio_default nvdata_file:dir { write search getattr add_name };
+allow hal_audio_default nvdata_file:file { read write open create getattr };
+allow hal_audio_default sysfs_dt_firmware_android:dir r_file_perms;
+allow hal_audio_default sysfs_dt_firmware_android:file r_file_perms;
+allow hal_audio_default metadata_file:dir search;
+allow hal_audio_default gsi_metadata_file:dir search;
+get_prop(hal_audio_default, service_nvram_init_prop)

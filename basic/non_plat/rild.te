@@ -175,3 +175,6 @@ set_prop(rild, ril_md_prop)
 allow rild nvram_agent_binder_hwservice:hwservice_manager find;
 
 allow rild self:capability2 wake_alarm;
+
+# MTK Engineering Mode
+allow rild platform_app:binder { call transfer };

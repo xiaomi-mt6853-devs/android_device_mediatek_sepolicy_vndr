@@ -111,3 +111,6 @@ get_prop(mnld, service_nvram_init_prop)
 get_prop(mnld, mtk_gps_support_prop)
 
 allow mnld self:capability2 wake_alarm;
+
+# MTK Engineering Mode
+allow mnld metadata_file:dir search;
