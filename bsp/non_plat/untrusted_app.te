@@ -34,3 +34,18 @@ allow untrusted_app debugfs_ion:dir search;
 # Operation : eMBMS Migration
 # Purpose :allow EXPWAY middleware to access the socket
 allow untrusted_app radio:unix_stream_socket connectto;
+
+# Purpose: Allow untrusted_app to access mdlactl_device and vpu_device
+allow untrusted_app mdla_device:chr_file { rw_file_perms };
+allow untrusted_app vpu_device:chr_file { rw_file_perms };
+
+# Purpose: Allow untrusted_app to access mcdi device
+allow untrusted_app proc_mcdi:dir search;
+allow untrusted_app proc_mcdi:file rw_file_perms;
+allow untrusted_app proc_mcdi:chr_file rw_file_perms;
+
+# Purpose: Netflix Widevine
+allow untrusted_app proc_atf_log:dir search;
+allow untrusted_app proc_m4u:dir search;
+get_prop(untrusted_app, vendor_mtk_microtrust_tee_prop)
+get_prop(untrusted_app, vendor_mtk_trustonic_tee_prop)
