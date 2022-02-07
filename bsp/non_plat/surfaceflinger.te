@@ -94,3 +94,6 @@ allow surfaceflinger dmabuf_system_secure_heap_device:chr_file r_file_perms_no_m
 # Data: 2021/09/07
 # Purpose: Call NpAgent
 hal_client_domain(surfaceflinger, hal_neuralnetworks)
+
+# Purpose: Netflix Widevine
+allow surfaceflinger teei_client_device:chr_file rw_file_perms;
