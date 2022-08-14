@@ -648,7 +648,6 @@ genfscon debugfs /mmprofile          u:object_r:debugfs_fb:s0
 #
 genfscon iso9660 / u:object_r:iso9660:s0
 genfscon rawfs /   u:object_r:rawfs:s0
-genfscon fuseblk / u:object_r:fuseblk:s0
 
 # move from plat_private to non_plat
 genfscon sysfs /firmware/devicetree/base/chosen/atag,boot    u:object_r:sysfs_boot_info:s0
