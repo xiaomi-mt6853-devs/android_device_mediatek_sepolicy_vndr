@@ -2,7 +2,8 @@
 # SELinux Policy File Configuration
 BOARD_SEPOLICY_DIRS += \
     device/mediatek/sepolicy/basic/non_plat \
-    device/mediatek/sepolicy/bsp/non_plat
+    device/mediatek/sepolicy/bsp/non_plat \
+    device/mediatek/sepolicy/modem
 
 ifneq ($(call math_lt,$(PRODUCT_SHIPPING_API_LEVEL),28),)
 BOARD_SEPOLICY_DIRS += $(wildcard device/mediatek/sepolicy/bsp/ota_upgrade)
