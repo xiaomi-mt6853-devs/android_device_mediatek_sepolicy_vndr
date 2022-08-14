@@ -1,13 +1,14 @@
+# Board specific SELinux policy variable definitions
+MTK_SEPOLICY_PATH := device/mediatek/sepolicy_vndr
 
-# SELinux Policy File Configuration
 BOARD_SEPOLICY_DIRS += \
-    device/mediatek/sepolicy/basic/non_plat \
-    device/mediatek/sepolicy/bsp/non_plat
+    $(MTK_SEPOLICY_PATH)/basic/non_plat \
+    $(MTK_SEPOLICY_PATH)/bsp/non_plat
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
-    device/mediatek/sepolicy/basic/plat_private \
-    device/mediatek/sepolicy/bsp/plat_private
+    $(MTK_SEPOLICY_PATH)/basic/plat_private \
+    $(MTK_SEPOLICY_PATH)/bsp/plat_private
 
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
-    device/mediatek/sepolicy/basic/plat_public \
-    device/mediatek/sepolicy/bsp/plat_public
+    $(MTK_SEPOLICY_PATH)/basic/plat_public \
+    $(MTK_SEPOLICY_PATH)/bsp/plat_public
