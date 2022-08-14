@@ -273,7 +273,6 @@ genfscon sysfs /power/vcorefs/opp_table   u:object_r:sysfs_vcore_debug:s0
 
 # Date: 2018/08/09
 # Purpose : MTK Vibrator
-genfscon sysfs /devices/virtual/timed_output/vibrator                          u:object_r:sysfs_vibrator:s0
 genfscon sysfs /devices/platform/odm/odm:vibrator@0/leds/vibrator              u:object_r:sysfs_vibrator:s0
 genfscon sysfs /devices/platform/soc/soc:regulator_vibrator/leds/vibrator      u:object_r:sysfs_vibrator:s0
 genfscon sysfs /devices/platform/soc/soc:pwm_leds/leds/lcd-backlight           u:object_r:sysfs_leds:s0
