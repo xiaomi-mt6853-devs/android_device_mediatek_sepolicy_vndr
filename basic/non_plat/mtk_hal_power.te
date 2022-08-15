@@ -85,7 +85,7 @@ allow mtk_hal_power mediaserver:dir r_dir_perms;
 allow mtk_hal_power mediaserver:file r_file_perms;
 
 set_prop(mtk_hal_power, vendor_mtk_thermal_config_prop)
-
+set_prop(mtk_hal_power, vendor_mtk_powerhal_gpu_prop)
 
 # Date : 2018/06/26
 # Operation: Thermal change policy in perfservice
