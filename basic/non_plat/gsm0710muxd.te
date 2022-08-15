@@ -20,6 +20,8 @@ set_prop(gsm0710muxd, vendor_mtk_ctl_ril-daemon-mtk_prop)
 set_prop(gsm0710muxd, vendor_mtk_ctl_fusion_ril_mtk_prop)
 set_prop(gsm0710muxd, vendor_mtk_gsm0710muxd_prop)
 set_prop(gsm0710muxd, vendor_mtk_radio_prop)
+set_prop(gsm0710muxd, ctl_stop_prop)
+set_prop(gsm0710muxd, ctl_start_prop)
 
 # Date: w2043
 # Allow to get AOSP property persist.radio.multisim.config
