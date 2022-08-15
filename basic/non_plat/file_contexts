@@ -24,6 +24,8 @@
 /data/mdlog(/.*)?                   u:object_r:mdlog_data_file:s0
 /data/mdl(/.*)?                     u:object_r:mdlog_data_file:s0
 /data/mdl3(/.*)?                    u:object_r:mdlog_data_file:s0
+/data/nfc(/.*)?                     u:object_r:nfc_data_file:s0
+/data/vendor/nfc(/.*)?                     u:object_r:nfc_data_file:s0
 /data/nfc_socket(/.*)?              u:object_r:nfc_socket_file:s0
 /data/vendor/nfc_socket(/.*)?       u:object_r:vendor_nfc_socket_file:s0
 /data/vendor/md3(/.*)?              u:object_r:c2k_file:s0
