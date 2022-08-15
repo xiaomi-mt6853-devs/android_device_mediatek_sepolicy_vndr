@@ -61,6 +61,9 @@ vendor.net.cdma.mdmstat u:object_r:vendor_mtk_net_cdma_mdmstat_prop:s0
 # md status
 vendor.mtk.md u:object_r:vendor_mtk_md_prop:s0
 
+# sms
+vendor.sms.md.ready	    u:object_r:vendor_mtk_md_prop:s0
+
 # factory idle current prop
 vendor.debug.factory.idle_state u:object_r:vendor_mtk_factory_idle_state_prop:s0
 
