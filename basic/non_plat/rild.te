@@ -78,6 +78,8 @@ allow rild sysfs_ccci:file r_file_perms;
 #Purpose: allow set telephony Sensitive property
 set_prop(rild, vendor_mtk_telephony_sensitive_prop)
 
+set_prop(rild,vendor_mtk_md_prop)
+
 # For AGPSD
 allow rild mtk_agpsd:unix_stream_socket connectto;
 
