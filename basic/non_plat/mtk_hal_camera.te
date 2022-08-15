@@ -282,6 +282,9 @@ allow mtk_hal_camera nvdata_file:dir create_dir_perms;
 allow mtk_hal_camera nvcfg_file:lnk_file r_file_perms;
 allow mtk_hal_camera mnt_vendor_file:file create_file_perms;
 
+# Allow Camera HAL to set vendor_mtk_emcamera_prop
+set_prop(mtk_hal_camera, vendor_mtk_emcamera_prop)
+
 # AAO
 allow mtk_hal_camera data_vendor_aao_file:dir create_dir_perms;
 allow mtk_hal_camera data_vendor_aao_file:file create_file_perms;
