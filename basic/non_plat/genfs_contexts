@@ -150,10 +150,6 @@ genfscon proc /sys/kernel/sched_migration_cost_ns u:object_r:proc_sched_migratio
 # allow powerhal to access /proc/cpuhvfs/cpufreq_cci_mode
 genfscon proc /cpuhvfs/cpufreq_cci_mode u:object_r:proc_cpuhvfs:s0
 
-# Date : 2021/11/12
-# Purpose : write /proc/sys/vm/watermark_boost_factor
-genfscon proc /sys/vm/watermark_boost_factor u:object_r:proc_watermark_boost_factor:s0
-
 ##########################
 # sysfs files
 #

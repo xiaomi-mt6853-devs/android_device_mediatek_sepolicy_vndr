@@ -648,10 +648,6 @@ type thermal_socket, file_type;
 # Purpose: Add permission for node /proc/dma_heap
 type proc_dmaheap, fs_type, proc_type;
 
-# Date : 2021/11/12
-# Purpose: add permission for /proc/sys/vm/watermark_boost_factor
-type proc_watermark_boost_factor, fs_type, proc_type;
-
 # Date: 2021/12/24
 # Purpose: add new label for /proc/mgq
 type proc_mgq, fs_type, proc_type;
