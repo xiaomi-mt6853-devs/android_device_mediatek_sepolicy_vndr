@@ -137,10 +137,6 @@ genfscon proc /mcdi/ u:object_r:proc_mcdi:s0
 # Purpose: Add permission for /proc/driver/conninfra_dbg
 genfscon proc /driver/conninfra_dbg u:object_r:proc_conninfradbg:s0
 
-# Date : 2021/04/20
-# Purpose : write /proc/sys/vm/watermark_scale_factor
-genfscon proc /sys/vm/watermark_scale_factor u:object_r:proc_watermark_scale_factor:s0
-
 # Data : 2021/4/21
 # Purpose : read/write /proc/mtk_usb, /proc/mtk_typec
 genfscon proc /mtk_usb u:object_r:proc_usb_plat:s0
