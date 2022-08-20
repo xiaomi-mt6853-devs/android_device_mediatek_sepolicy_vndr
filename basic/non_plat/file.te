@@ -210,7 +210,7 @@ type sysfs_chg2_present, fs_type, sysfs_type;
 
 # Date : 2018/10/25
 # Purpose : mtk GPU drvb permission setting
-type sysfs_gpu, fs_type, sysfs_type, mlstrustedobject;
+type sysfs_gpu_mtk, fs_type, sysfs_type, mlstrustedobject;
 
 # Touch parameters file
 type sysfs_tpd_setting, fs_type, sysfs_type;

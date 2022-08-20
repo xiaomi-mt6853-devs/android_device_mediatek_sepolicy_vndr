@@ -20,4 +20,4 @@ allow {
 allow {
   domain
   -isolated_app
-} sysfs_gpu:file r_file_perms;
+} sysfs_gpu_mtk:file r_file_perms;

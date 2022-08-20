@@ -613,9 +613,9 @@ genfscon sysfs /devices/platform/soc/1f000000.mdp/wakeup/wakeup2/event_count    
 genfscon sysfs /devices/platform/soc/1f000000.mdp/wakeup/wakeup2                                                                        u:object_r:sysfs_wakeup:s0
 
 # allow gpu to set dbg
-genfscon sysfs /disp/dbg1  u:object_r:sysfs_gpu:s0
-genfscon sysfs /disp/dbg2  u:object_r:sysfs_gpu:s0
-genfscon sysfs /disp/dbg3  u:object_r:sysfs_gpu:s0
+genfscon sysfs /disp/dbg1  u:object_r:sysfs_gpu_mtk:s0
+genfscon sysfs /disp/dbg2  u:object_r:sysfs_gpu_mtk:s0
+genfscon sysfs /disp/dbg3  u:object_r:sysfs_gpu_mtk:s0
 
 # Purpose: Add permission for /sys/devices/platform/bootdevice/host0/target0:0:0/0:0:0:0/vpd_pg80
 genfscon sysfs /devices/platform/bootdevice/host0/target0:0:0/0:0:0:0/vpd_pg80  u:object_r:sysfs_vpd:s0
