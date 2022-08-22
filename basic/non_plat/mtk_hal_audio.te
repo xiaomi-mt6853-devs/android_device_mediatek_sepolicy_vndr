@@ -25,8 +25,8 @@ allow mtk_hal_audio audio_device:chr_file rw_file_perms;
 neverallow mtk_hal_audio { file_type fs_type }:file execute_no_trans;
 
 # mtk_hal_audio should never need network access.
-# Disallow network sockets.
-neverallow mtk_hal_audio domain:{ tcp_socket udp_socket rawip_socket } *;
+# Disallow network sockets apart from TCP sockets.
+neverallow mtk_hal_audio domain:{ udp_socket rawip_socket } *;
 
 # Date : WK14.32
 # Operation : Migration
