@@ -436,6 +436,7 @@ type cct_data_file, file_type, data_file_type;
 type mediaserver_data_file, file_type, data_file_type;
 type mediacodec_data_file, file_type, data_file_type;
 type connsyslog_data_vendor_file, file_type, data_file_type;
+type nfc_data_vendor_file, file_type, data_file_type;
 
 # AAO
 type data_vendor_aao_file, file_type, data_file_type;
