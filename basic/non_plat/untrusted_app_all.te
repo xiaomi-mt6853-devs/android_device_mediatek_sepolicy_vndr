@@ -10,3 +10,6 @@ allowxperm untrusted_app_all proc_mtk_jpeg:file ioctl {
       JPG_BRIDGE_DEC_IO_WAIT
       JPG_BRIDGE_DEC_IO_UNLOCK
 };
+
+allow untrusted_app_all sysfs_therm:dir r_dir_perms;
+allow untrusted_app_all sysfs_therm:file r_file_perms;
