@@ -145,3 +145,7 @@ allow mediacodec sysfs_emi_ctrl_concurrency_scenario:dir search;
 # # Operation: SQC
 # # Purpose : Allow medicodec to control video mode property
 set_prop(mediacodec, vendor_mtk_video_prop)
+
+get_prop(mediacodec, vendor_mtk_crossmount_prop)
+get_prop(mediacodec, vendor_mtk_deinterlace_prop)
+get_prop(mediacodec, vendor_mtk_omx_core_prop)
