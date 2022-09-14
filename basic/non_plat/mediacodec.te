@@ -145,3 +145,7 @@ allow mediacodec sysfs_emi_ctrl_concurrency_scenario:dir search;
 # # Operation: SQC
 # # Purpose : Allow medicodec to control video mode property
 set_prop(mediacodec, vendor_mtk_video_prop)
+
+# Date : 2022/12/01
+# Purpose : Allow mediacodec to get hdr video property
+get_prop(mediacodec, vendor_mtk_hdr_video_prop)

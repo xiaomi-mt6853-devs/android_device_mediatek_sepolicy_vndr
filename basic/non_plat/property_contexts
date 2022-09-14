@@ -386,3 +386,4 @@ persist.vendor.eara_io.          u:object_r:vendor_mtk_eara_io_prop:s0
 # xfrm and mdrsra property for non 5G GKI platform
 persist.vendor.mdrsra_v2_support u:object_r:vendor_mtk_mdrsra_v2_support_prop:s0
 persist.vendor.xfrm_support u:object_r:vendor_mtk_xfrm_support_prop:s0
+ro.vendor.mtk_hdr_video_support u:object_r:vendor_mtk_hdr_video_prop:s0
