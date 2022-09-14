@@ -9,6 +9,8 @@ type ipsec_mon_exec, exec_type, file_type, vendor_file_type;
 
 init_daemon_domain(ipsec_mon)
 
+net_domain(ipsec_mon)
+
 allow ipsec_mon self:netlink_xfrm_socket { write bind create read nlmsg_read nlmsg_write};
 allow ipsec_mon ims_ipsec_data_file:dir w_dir_perms;
 allow ipsec_mon ims_ipsec_data_file:file create_file_perms;
