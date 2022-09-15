@@ -47,3 +47,8 @@ full_treble_only(`
 
 # add power config
 allow vpud_native sysfs_boot_mode:file r_file_perms;
+
+allow vpud_native proc_mtkcooler:dir search;
+allow vpud_native proc_mtkcooler:file rw_file_perms;
+allow vpud_native thermal_manager_data_file:dir w_dir_perms;
+allow vpud_native thermal_manager_data_file:file create_file_perms;
