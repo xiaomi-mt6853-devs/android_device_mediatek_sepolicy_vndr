@@ -90,3 +90,5 @@ vendor.mediatek.hardware.bluetooth.audio::IBluetoothAudioProvidersFactory u:obje
 # Date: 2021/06/30
 # composer extension HIDL
 vendor.mediatek.hardware.composer_ext::IComposerExt u:object_r:mtk_hal_composer_ext_hwservice:s0
+
+vendor.mediatek.hardware.mtkcodecservice::IMtkCodecService u:object_r:hal_mtkcodecservice_hwservice:s0

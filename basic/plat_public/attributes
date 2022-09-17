@@ -116,3 +116,7 @@ attribute mtk_safe_halserverdomain_type;
 attribute hal_mtk_mmagent;
 attribute hal_mtk_mmagent_client;
 attribute hal_mtk_mmagent_server;
+
+attribute hal_mtkcodecservice;
+attribute hal_mtkcodecservice_client;
+attribute hal_mtkcodecservice_server;

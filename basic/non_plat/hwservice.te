@@ -77,3 +77,4 @@ type mtk_hal_composer_ext_hwservice, hwservice_manager_type, protected_hwservice
 
 # GPU HIDL
 type mtk_hal_gpu_hwservice, hwservice_manager_type;
+type hal_mtkcodecservice_hwservice, hwservice_manager_type;
