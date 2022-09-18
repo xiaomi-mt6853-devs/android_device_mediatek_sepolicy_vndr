@@ -152,3 +152,5 @@ get_prop(mediacodec, vendor_mtk_omx_core_prop)
 get_prop(mediacodec, vendor_mtk_hdr_video_prop)
 
 hal_client_domain(mediacodec, hal_mtkcodecservice)
+
+allow mediacodec sysfs_boot_mode:file r_file_perms;
