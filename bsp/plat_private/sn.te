@@ -11,7 +11,6 @@ allow sn sdcard_type:file { read getattr open };
 
 allow sn sysfs_android0_usb:file rw_file_perms;
 allow sn sysfs_mt_usb:file rw_file_perms;
-allow sn sysfs_musb_hdrc:file rw_file_perms;
 
 allow sn mnt_user_file:dir search;
 allow sn mnt_user_file:lnk_file read;

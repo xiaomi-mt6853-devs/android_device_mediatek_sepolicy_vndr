@@ -28,9 +28,5 @@ get_prop(radio, mtk_rsc_sys_prop);
 # Purpose: allow to read init.svc.md_monitor property for calling SystemService.waitForState()
 get_prop(radio, init_svc_md_monitor_prop)
 
-# Purpose : Allow EM USB read current_speed
-allow radio sysfs_musb_hdrc:dir search;
-allow radio sysfs_musb_hdrc:file r_file_perms;
-
 # Purpose : allow to get mtk_dmc_prop
 get_prop(radio, mtk_dmc_prop);

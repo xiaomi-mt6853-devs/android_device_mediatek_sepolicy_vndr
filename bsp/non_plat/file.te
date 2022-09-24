@@ -71,3 +71,5 @@ type vendor_shading_file, file_type, data_file_type;
 # task turbo
 type sysfs_task_turbo, fs_type, sysfs_type;
 
+# USB
+type sysfs_musb_hdrc, fs_type, sysfs_type;

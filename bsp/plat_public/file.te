@@ -1,2 +1,0 @@
-# USB
-type sysfs_musb_hdrc, fs_type, sysfs_type;

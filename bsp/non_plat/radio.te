@@ -167,3 +167,7 @@ set_prop(radio, config_prop);
 # Purpose : for setting ims nr enable property
 get_prop(radio, mtk_vonr_prop)
 get_prop(radio, mtk_vinr_prop)
+
+# Purpose : Allow EM USB read current_speed
+allow radio sysfs_musb_hdrc:dir search;
+allow radio sysfs_musb_hdrc:file r_file_perms;
