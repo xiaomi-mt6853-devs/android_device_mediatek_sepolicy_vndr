@@ -254,6 +254,7 @@ ro.vendor.mtk_ct4greg_app u:object_r:vendor_mtk_default_prop:s0
 ro.vendor.mtk_devreg_app  u:object_r:vendor_mtk_default_prop:s0
 
 vendor.cdma. u:object_r:vendor_mtk_cdma_prop:s0
+ril.cdma.inecmmode u:object_r:vendor_mtk_cdma_prop:s0
 
 persist.vendor.service.rcs        u:object_r:vendor_mtk_service_rcs_prop:s0
 persist.vendor.service.tag.rcs    u:object_r:vendor_mtk_service_rcs_prop:s0
