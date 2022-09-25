@@ -374,6 +374,13 @@ persist.vendor.debug.hwc.log     u:object_r:vendor_mtk_hwc_debug_log_prop:s0
 vendor.debug.hwc.                u:object_r:vendor_mtk_hwc_debug_log_prop:s0
 vendor.dp.log.enable             u:object_r:vendor_mtk_mdp_debug_log_prop:s0
 vendor.dp.frameChange.disable    u:object_r:vendor_mtk_mdp_debug_log_prop:s0
+vendor.dp.systrace.enable        u:object_r:vendor_mtk_mdp_debug_log_prop:s0
+vendor.dp.dumpbuffer.enable      u:object_r:vendor_mtk_mdp_debug_log_prop:s0
+vendor.dp.dumpbuffer.error       u:object_r:vendor_mtk_mdp_debug_log_prop:s0
+vendor.dp.dumpbuffer.folder      u:object_r:vendor_mtk_mdp_debug_log_prop:s0
+persist.vendor.dp.dumpreg.check  u:object_r:vendor_mtk_mdp_debug_log_prop:s0
+vendor.dp.dumpreg.enable         u:object_r:vendor_mtk_mdp_debug_log_prop:s0
+vendor.dp.mmpath.enable          u:object_r:vendor_mtk_mdp_debug_log_prop:s0
 vendor.debug.logger.             u:object_r:vendor_debug_logger_prop:s0
 
 # neuropilot flag
