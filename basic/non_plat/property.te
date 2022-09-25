@@ -121,6 +121,7 @@ vendor_restricted_prop(vendor_mtk_debug_sf_cpupolicy_prop)
 vendor_restricted_prop(vendor_mtk_neuropilot_flag_prop)
 vendor_restricted_prop(vendor_mtk_mdrsra_v2_support_prop)
 vendor_restricted_prop(vendor_mtk_xfrm_support_prop)
+vendor_restricted_prop(vendor_mtk_mdp_prop)
 vendor_restricted_prop(vendor_debug_logger_prop)
 
 # Properties with can be read by all domains
@@ -198,4 +199,5 @@ typeattribute vendor_mtk_mdp_debug_log_prop          mtk_core_property_type;
 typeattribute vendor_mtk_neuropilot_flag_prop        mtk_core_property_type;
 typeattribute vendor_mtk_mdrsra_v2_support_prop      mtk_core_property_type;
 typeattribute vendor_mtk_xfrm_support_prop           mtk_core_property_type;
+typeattribute vendor_mtk_mdp_prop                    mtk_core_property_type;
 typeattribute vendor_debug_logger_prop               mtk_core_property_type;

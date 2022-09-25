@@ -383,6 +383,12 @@ vendor.dp.dumpreg.enable         u:object_r:vendor_mtk_mdp_debug_log_prop:s0
 vendor.dp.mmpath.enable          u:object_r:vendor_mtk_mdp_debug_log_prop:s0
 vendor.debug.logger.             u:object_r:vendor_debug_logger_prop:s0
 
+# MDP properties
+vendor.dp.met.enable          u:object_r:vendor_mtk_mdp_prop:s0
+vendor.dp.dualpipe.4k.enable  u:object_r:vendor_mtk_mdp_prop:s0
+vendor.dp.dualpipe.cam.enable u:object_r:vendor_mtk_mdp_prop:s0
+persist.vendor.dp.met.check   u:object_r:vendor_mtk_mdp_prop:s0
+
 # neuropilot flag
 ro.vendor.neuropilot.flag u:object_r:vendor_mtk_neuropilot_flag_prop:s0
 
