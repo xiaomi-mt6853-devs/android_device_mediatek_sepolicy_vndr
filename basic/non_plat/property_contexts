@@ -201,6 +201,7 @@ ro.vendor.mtk_chameleon_support    u:object_r:vendor_mtk_pq_ro_prop:s0
 ro.vendor.mtk_pq_support           u:object_r:vendor_mtk_pq_ro_prop:s0
 ro.vendor.mtk_appgamepq_support    u:object_r:vendor_mtk_pq_ro_prop:s0
 ro.vendor.mtk_gamehdr_support      u:object_r:vendor_mtk_pq_ro_prop:s0
+ro.vendor.globalpq.support         u:object_r:vendor_mtk_pq_ro_prop:s0
 ro.vendor.pq.                      u:object_r:vendor_mtk_pq_ro_prop:s0
 
 # mtk display
