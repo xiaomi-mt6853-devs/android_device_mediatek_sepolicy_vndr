@@ -33,6 +33,7 @@ hal_client_domain(hal_graphics_composer_default, hal_power)
 set_prop(hal_graphics_composer_default, vendor_mtk_graphics_hwc_pid_prop)
 set_prop(hal_graphics_composer_default, vendor_mtk_graphics_hwc_hdr_prop)
 set_prop(hal_graphics_composer_default, vendor_mtk_graphics_hwc_validate_separate_prop)
+set_prop(hal_graphics_composer_default, vendor_mtk_graphics_hwc_latch_unsignaled_prop)
 
 # Date : WK18.03
 # Purpose: Allow to access property dev/mdp_sync

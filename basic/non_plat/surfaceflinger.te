@@ -65,6 +65,7 @@ allowxperm surfaceflinger proc_perfmgr:file ioctl {
 # Purpose: Allow to dump HWC backtrace
 get_prop(surfaceflinger, vendor_mtk_graphics_hwc_pid_prop)
 get_prop(surfaceflinger, vendor_mtk_graphics_hwc_validate_separate_prop)
+get_prop(surfaceflinger, vendor_mtk_graphics_hwc_latch_unsignaled_prop)
 allow surfaceflinger hal_graphics_composer_default:dir search;
 allow surfaceflinger hal_graphics_composer_default:lnk_file r_file_perms;
 dontaudit surfaceflinger hal_graphics_composer_default:file r_file_perms;
