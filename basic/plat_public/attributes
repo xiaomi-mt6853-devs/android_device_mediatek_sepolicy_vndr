@@ -33,6 +33,11 @@ attribute hal_mtk_lbs;
 attribute hal_mtk_lbs_client;
 attribute hal_mtk_lbs_server;
 
+# GPU HIDL
+attribute hal_gpu;
+attribute hal_gpu_client;
+attribute hal_gpu_server;
+
 # Date: 2017/06/27
 # IMSA HIDL
 attribute hal_mtk_imsa;

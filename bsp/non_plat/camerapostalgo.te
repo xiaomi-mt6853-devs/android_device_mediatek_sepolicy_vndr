@@ -23,4 +23,5 @@ hal_client_domain(camerapostalgo, hal_mtk_mms)
 hal_client_domain(camerapostalgo, hal_graphics_allocator)
 allow camerapostalgo hal_graphics_mapper_hwservice:hwservice_manager find;
 allow camerapostalgo hal_configstore_default:binder call;
+allow camerapostalgo mtk_hal_gpu_hwservice:hwservice_manager find;
 
