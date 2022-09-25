@@ -196,6 +196,8 @@ ro.vendor.mtk_vibspk_support u:object_r:vendor_mtk_default_prop:s0
 # fm 50khz support
 ro.vendor.mtk_fm_50khz_support u:object_r:vendor_mtk_default_prop:s0
 
+debuglog.drv                          u:object_r:vendor_mtk_camera_prop:s0
+debuglog.drv.                         u:object_r:vendor_mtk_camera_prop:s0
 vendor.camera.save.temp.video         u:object_r:vendor_mtk_camera_prop:s0
 vendor.camera_af_power_debug          u:object_r:vendor_mtk_camera_prop:s0
 vendor.com.mediatek.gesture.pose      u:object_r:vendor_mtk_camera_prop:s0
