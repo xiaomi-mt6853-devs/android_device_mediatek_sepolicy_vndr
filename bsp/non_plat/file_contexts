@@ -144,6 +144,7 @@
 /(vendor|system/vendor)/bin/viarild                                               u:object_r:viarild_exec:s0
 /(vendor|system/vendor)/bin/statusd                                               u:object_r:statusd_exec:s0
 /(vendor|system/vendor)/bin/flashlessd                                            u:object_r:flashlessd_exec:s0
+/(vendor|system/vendor)/bin/ccci_fsd                                              u:object_r:ccci_fsd_exec:s0
 /(vendor|system/vendor)/bin/ccci_rpcd                                             u:object_r:ccci_rpcd_exec:s0
 /(vendor|system/vendor)/bin/ipsec_mon                                             u:object_r:ipsec_mon_exec:s0
 /(vendor|system/vendor)/bin/getgameserver                                         u:object_r:getgameserver_exec:s0
