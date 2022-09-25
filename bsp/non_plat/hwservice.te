@@ -6,6 +6,7 @@ type mtk_hal_netdagent_hwservice, hwservice_manager_type;
 type volte_rcs_ua_hwservice, hwservice_manager_type;
 type mtk_hal_dfps_hwservice, hwservice_manager_type;
 type mtk_hal_dplanner_hwservice, hwservice_manager_type;
+type mtk_hal_keyinstall_hwservice, hwservice_manager_type;
 type mtk_hal_pplagent_hwservice, hwservice_manager_type;
 # omadm hidl
 type mtk_hal_omadm_hwservice, hwservice_manager_type;

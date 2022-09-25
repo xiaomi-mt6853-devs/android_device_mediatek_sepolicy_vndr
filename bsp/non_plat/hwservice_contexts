@@ -36,6 +36,9 @@ vendor.mediatek.hardware.dplanner::IDPlanner u:object_r:mtk_hal_dplanner_hwservi
 # tablet DRM Key Manage HIDL
 vendor.mediatek.hardware.keymanage::IKeymanage u:object_r:mtk_hal_keymanage_hwservice:s0
 
+# DRM Key Installation HIDL
+vendor.mediatek.hardware.keyinstall::IKeyinstall u:object_r:mtk_hal_keyinstall_hwservice:s0
+
 # Date: 2018/05/07
 vendor.mediatek.hardware.pplagent::IPplAgent u:object_r:mtk_hal_pplagent_hwservice:s0
 
