@@ -28,9 +28,6 @@ allow platform_app fuseblk:dir create_dir_perms;
 # Package: com.android.settings
 allow platform_app fuseblk:file create_file_perms;
 
-# Purpose : Allow camera app to find advcam servive
-allow platform_app mtk_advcamserver_service:service_manager find;
-
 # Purpose: Allow to use lomo effect
 # Package: com.mediatek.camera
 #allow platform_app hal_camera_hwservice:hwservice_manager find;

@@ -3,7 +3,6 @@ type mtk_anrmanager_service, app_api_service, system_server_service, service_man
 type mtk_permrecords_service, app_api_service, system_server_service, service_manager_type;
 
 # Other Services
-type mtk_advcamserver_service,  service_manager_type;
 type dm_agent_binder_service, service_manager_type;
 
 # System Server Services
