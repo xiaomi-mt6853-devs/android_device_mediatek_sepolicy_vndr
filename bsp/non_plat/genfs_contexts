@@ -41,7 +41,7 @@ genfscon sysfs /module/task_turbo/parameters/feats u:object_r:sysfs_task_turbo:s
 
 # MTK USB
 #path = "/sys/class/udc/musb-hdrc/device/cmode"
-genfscon sysfs /class/udc/musb-hdrc/device/comde u:object_r:sysfs_musb_hdrc:s0
+genfscon sysfs /class/udc/musb-hdrc/device/cmode u:object_r:sysfs_musb_hdrc:s0
 genfscon sysfs /devices/platform/mt_usb/musb-hdrc/udc/musb-hdrc u:object_r:sysfs_musb_hdrc:s0
 genfscon sysfs /devices/platform/11201000.mtu3_0/udc/musb-hdrc u:object_r:sysfs_musb_hdrc:s0
 genfscon sysfs /devices/platform/11201000.usb3/udc/musb-hdrc u:object_r:sysfs_musb_hdrc:s0
