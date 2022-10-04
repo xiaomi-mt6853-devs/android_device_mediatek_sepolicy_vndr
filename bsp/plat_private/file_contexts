@@ -19,11 +19,6 @@
 /system/bin/mmp u:object_r:mmp_exec:s0
 /system/bin/resize.f2fs   u:object_r:fsck_exec:s0
 
-# MTK MET
-/system/bin/met_log_d u:object_r:met_log_d_exec:s0
-
-/eng u:object_r:rootfs:s0
-
 # MTK TerService
 /system/bin/terservice u:object_r:terservice_exec:s0
 
