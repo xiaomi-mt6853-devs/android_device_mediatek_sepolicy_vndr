@@ -29,10 +29,9 @@ vow_bridge                              u:object_r:mtk_vowbridge_service:s0
 autoboot                                u:object_r:mtk_autoboot_service:s0
 
 # Other Services
-GoogleOtaBinder                         u:object_r:ota_agent_service:s0
 GpuAppSpectatorService                  u:object_r:gas_srv_service:s0
 
-# GuiExtService                           u:object_r:guiext-server_service:s0
+# GuiExtService                         u:object_r:guiext-server_service:s0
 FpsPolicyService                        u:object_r:fpspolicy-server_service:s0
 isubstub                                u:object_r:radio_service:s0
 appdetection                            u:object_r:mtk_appdetection_service:s0
