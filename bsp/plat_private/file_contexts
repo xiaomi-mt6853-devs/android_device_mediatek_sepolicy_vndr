@@ -7,9 +7,6 @@
 # MTK Thermald
 /system/bin/thermald u:object_r:thermald_exec:s0
 
-# MTK SN
-/system/bin/sn u:object_r:sn_exec:s0
-
 # MTK ATCI
 /system/bin/atci_service_sys u:object_r:atci_service_sys_exec:s0
 
