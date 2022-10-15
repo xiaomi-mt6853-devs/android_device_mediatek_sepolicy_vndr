@@ -731,7 +731,7 @@
 /(vendor|system/vendor)/bin/hw/vendor\.mediatek\.hardware\.pq@2\.2-service u:object_r:mtk_hal_pq_exec:s0
 
 # MMS hal
-/(vendor|system/vendor)/bin/hw/vendor\.mediatek\.hardware\.mms@1\.6-service u:object_r:mtk_hal_mms_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.mediatek\.hardware\.mms@1\.[0-9]-service u:object_r:mtk_hal_mms_exec:s0
 
 #MMAgent hal
 /(vendor|system/vendor)/bin/hw/vendor\.mediatek\.hardware\.mmagent@[0-9]+\.[0-9]+-service u:object_r:mtk_hal_mmagent_exec:s0
