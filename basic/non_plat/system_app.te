@@ -42,3 +42,6 @@ allowxperm system_app proc_mtk_jpeg:file ioctl {
 # Purpose: Allow system app to access mtk fpsgo
 allow system_app sysfs_fpsgo:dir search;
 allow system_app sysfs_fpsgo:file r_file_perms;
+
+# MTK FM Radio
+allow system_app fm_device:chr_file rw_file_perms;
